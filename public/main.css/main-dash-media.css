@@ -144,6 +144,10 @@
         width: 100%;
         font-size: .7rem;
     }
+    .get_data_form_small,.small_option_form
+    {
+        display: flex !important;
+    }
 }
 @media (min-width:200px) and (max-width:666px)
 {

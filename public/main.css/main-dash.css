@@ -436,6 +436,7 @@ main button
     z-index: 100;
     position: absolute;
     grid-gap: 10px;
+    display: none;
 }
 .get_data_form_small h1
 {
@@ -471,6 +472,42 @@ main button
 {
     color: red;
     font-family: sans-serif;
+}
+.small_option_form
+{
+    background-color: #2E5070;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 40%;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    direction: rtl;
+}
+.small_option_form input
+{
+    background-color: #fff;
+    padding: 5px 10px;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+}
+.small_option_form select
+{
+    width: 50%;
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    color: #221f1f;
+    font-weight: bold;
+    direction: ltr;
 }
 /*---------DATA || DASH || STYLES ||END ---------------------*/
 

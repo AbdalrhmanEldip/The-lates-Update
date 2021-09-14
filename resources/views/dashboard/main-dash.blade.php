@@ -172,6 +172,16 @@
                 <a href="" class="fa fa-pencil-square-o"></a>
             </div>
     </form>
+    <!--------------- Small_Option || Start --------------->
+    <form action="" class = "small_option_form hidde_data_small">
+        <span class="close_data_small"><a href="">X</a></span>
+        <select name="" id="">
+            <option value="">Test</option>
+        </select>
+        <input type="submit" value="بحث">
+    </form>
+    <!--------------- Small_Option || End --------------->
+    
     <!--------- Data_Form ||SMALL || MEDIA || END --------->
 
 
